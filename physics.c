@@ -147,10 +147,10 @@ void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
     if (button == GLFW_MOUSE_BUTTON_LEFT) {
         if (action == GLFW_PRESS) {
             mouse_pressed = 1;
-            printf("Mouse Pressed\n");
+            //printf("Mouse Pressed\n");
         } else if (action == GLFW_RELEASE) {
             mouse_pressed = 0;
-            printf("Mouse Released\n");
+            //printf("Mouse Released\n");
         }
     }
 }
