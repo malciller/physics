@@ -1,3 +1,5 @@
 *.exe
 /src
 /include
+/.vscode
+*.DS_Store
